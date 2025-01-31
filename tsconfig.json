@@ -20,7 +20,8 @@
       "@/components/*": ["components/*"],
       "@/contents/*": ["contents/*"],
       "@/layouts/*": ["layouts/*"],
-      "@/css/*": ["css/*"],
+      "@/styles/*": ["styles/*"],
+      "@/lib/*": ["lib/*"],
       "contentlayer/generated": ["./.contentlayer/generated"]
     },
     "plugins": [

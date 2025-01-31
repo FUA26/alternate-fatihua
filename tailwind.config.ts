@@ -1,4 +1,6 @@
 import type { Config } from 'tailwindcss'
+import colors from 'tailwindcss/colors'
+import tailwindcssAnimate from 'tailwindcss-animate'
 
 export default {
   darkMode: ['class'],
@@ -21,6 +23,7 @@ export default {
           foreground: 'hsl(var(--popover-foreground))',
         },
         primary: {
+          ...colors.orange,
           DEFAULT: 'hsl(var(--primary))',
           foreground: 'hsl(var(--primary-foreground))',
         },
@@ -58,5 +61,5 @@ export default {
       },
     },
   },
-  plugins: [require('tailwindcss-animate')],
+  plugins: [tailwindcssAnimate],
 } satisfies Config

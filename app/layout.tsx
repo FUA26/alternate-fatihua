@@ -1,6 +1,11 @@
+import { Footer } from '@/components/layout/footer/footer-main'
+import { Header } from '@/components/layout/header/main-header'
+import { ThemeProvider } from '@/components/layout/theme-provider'
+import { Container } from '@/components/ui/container'
+import '@/styles/globals.css'
+
 import type { Metadata } from 'next'
 import { Geist, Geist_Mono } from 'next/font/google'
-import './globals.css'
 
 const geistSans = Geist({
   variable: '--font-geist-sans',
@@ -23,8 +28,21 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>{children}</body>
+    <html lang="en" suppressHydrationWarning>
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
+        >
+          <Header />
+          <Container>
+            <main className="px-2 md:px-6">{children}</main>
+          </Container>
+          <Footer />
+        </ThemeProvider>
+      </body>
     </html>
   )
 }
