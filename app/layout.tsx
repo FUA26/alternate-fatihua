@@ -1,8 +1,11 @@
+import '@/styles/globals.css'
+import 'react-medium-image-zoom/dist/styles.css'
+import 'remark-github-blockquote-alert/alert.css'
+
 import { Footer } from '@/components/layout/footer/footer-main'
 import { Header } from '@/components/layout/header/main-header'
 import { ThemeProvider } from '@/components/layout/theme-provider'
 import { Container } from '@/components/ui/container'
-import '@/styles/globals.css'
 
 import type { Metadata } from 'next'
 import { Geist, Geist_Mono } from 'next/font/google'

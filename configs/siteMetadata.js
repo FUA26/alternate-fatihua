@@ -19,7 +19,7 @@ const siteMetadata = {
   instagram: 'https://www.instagram.com',
   medium: 'https://medium.com',
   locale: 'en-US',
-  stickyNav: false,
+  stickyNav: true,
 }
 
 module.exports = siteMetadata
