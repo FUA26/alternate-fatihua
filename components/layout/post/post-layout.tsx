@@ -10,7 +10,7 @@ import { Container } from '@/components/ui/container'
 
 import type { CoreContent } from '@/types/data'
 import siteMetadata from 'configs/siteMetadata'
-import { Authors, Blog } from 'contentlayer/generated'
+import type { Authors, Blog } from 'contentlayer/generated'
 import { formatDate, getTimeAgo } from '@/lib/utils'
 import { GradientDivider } from '@/components/ui/gradient-divider'
 

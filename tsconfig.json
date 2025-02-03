@@ -32,6 +32,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
+    "configs/**/*",
     ".next/types/**/*.ts",
     ".contentlayer/generated"
   ],

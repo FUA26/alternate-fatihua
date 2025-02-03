@@ -1,7 +1,7 @@
 import { Image } from '@/components/ui/image'
 import { Link } from '@/components/ui/link'
 import type { CoreContent } from '@/types/data'
-import { Authors as Author } from 'contentlayer/generated'
+import type { Authors as Author } from 'contentlayer/generated'
 
 interface AuthorsProps {
   authors: CoreContent<Author>[]

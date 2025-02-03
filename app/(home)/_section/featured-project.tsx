@@ -1,9 +1,10 @@
 import React from 'react'
 import Link from 'next/link'
 import type { CoreContent } from '@/types/data'
-import { Project } from 'contentlayer/generated'
+
 import { Button } from '@/components/ui/button'
 import ProjectCard from '@/components/common/project-card'
+import type { Project } from '@/.contentlayer/generated'
 
 interface FeaturedProjectSectionProps {
   initialDisplayProjects: CoreContent<Project>[]

@@ -4,7 +4,7 @@ import Link from 'next/link'
 import { type CoreContent } from '@/types/data'
 import { Button } from '@/components/ui/button'
 import { PostCardGridView } from '@/components/common/post-card-grid-view'
-import { Blog } from 'contentlayer/generated'
+import type { Blog } from '@/.contentlayer/generated'
 
 interface FeaturedBlogSectionProps {
   initialDisplayBlogs: CoreContent<Blog>[]
