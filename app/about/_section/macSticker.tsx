@@ -7,7 +7,7 @@ const MacSticker = () => {
     <div className="relative m-auto hidden h-[454px] w-[659px] md:block">
       <Image
         className="m-auto rounded-2xl"
-        src="/static/macbook.webp"
+        src="/static/images/macbook.webp"
         alt="Profile Image"
         priority={true}
         height={454}

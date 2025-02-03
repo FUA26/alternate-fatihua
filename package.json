@@ -20,6 +20,7 @@
     "clsx": "^2.1.1",
     "contentlayer2": "^0.5.3",
     "date-fns": "^4.1.0",
+    "esbuild-wasm": "^0.24.2",
     "github-slugger": "^2.0.0",
     "hast-util-from-html-isomorphic": "^2.0.0",
     "lucide-react": "^0.474.0",
