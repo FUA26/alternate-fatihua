@@ -3,8 +3,9 @@
   "code": 1,
   "features": 1,
   "next-js": 1,
-  "tailwind": 1,
-  "guide": 1,
+  "eslint": 1,
+  "prettier": 1,
+  "setup": 1,
   "nextjs": 2,
   "new": 1
 }

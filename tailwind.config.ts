@@ -282,14 +282,15 @@ export default {
               code: { color: theme('colors.primary.400') },
             },
             pre: {
-              code: {
-                span: {
-                  color: 'var(--shiki-dark, inherit)',
-                  fontStyle: 'var(--shiki-dark-font-style, inherit)',
-                  fontWeight: 'var(--shiki-dark-font-weight, inherit)',
-                  textDecoration: 'var(--shiki-dark-text-decoration, inherit)',
-                },
-              },
+              // code: {
+              //   span: {
+              //     color: 'var(--shiki-dark, inherit)',
+              //     fontStyle: 'var(--shiki-dark-font-style, inherit)',
+              //     fontWeight: 'var(--shiki-dark-font-weight, inherit)',
+              //     textDecoration: 'var(--shiki-dark-text-decoration, inherit)',
+              //   },
+              // },
+              backgroundColor: '#262626',
             },
             '[data-highlighted-line]': {
               backgroundColor: '#37415180',
